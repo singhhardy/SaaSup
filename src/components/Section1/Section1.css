@@ -1,0 +1,159 @@
+
+.section-1{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    background: #fff;
+}
+
+/* BOX 1 */
+.box-1{
+    padding: 0 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.box-1-head{
+    display: flex;
+}
+
+.box-1-head-content{
+    padding: 0 10px;
+}
+
+.box-1-body-content-1{
+    display: flex;
+}
+
+.box-1-body-content-icon i{
+    font-size: 80px;
+    margin: 0 20px 0 0;
+}
+
+.box-1-body-content-text a{
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box-1-body-content-text p{
+    color: #333;
+    margin-top: -1%;
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.box-1-body-content-text{
+    padding: 20px 5px;
+}
+
+/* box 2 */
+
+.box-2{
+    margin-top: 15%;
+    margin-left: -30%;
+
+}
+
+.box-pop{
+    z-index: 99;
+    border: 2px solid #E0E0E0;
+    border-radius: 20px;
+    z-index: 2;
+    background: #fff;
+    margin-right: 30%;
+    padding:  80px 20px;
+}
+
+.box-1-body-content-text h2{
+    margin-top: -5%;
+}
+
+.box-1-body-content-text p{
+    margin-top: -1%;
+}
+
+.button{
+    text-align: center;
+}
+
+.button a{
+    box-sizing: border-box;
+    background: #4353FF;
+    border-radius: 10px;    
+    padding: 20px 50px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-1-body-content-icon img{
+    padding: 10px;
+}
+
+/* blank div */
+
+.blank{
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    margin-left: 180%; 
+    padding: 0 30px; 
+    border-radius: 0 0 0 20px;
+}
+
+@media(max-width: 1000px){
+    .section-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .blank{
+        display: none;
+    }
+    .box-2{
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+    .button a{
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 500px){
+    .box-1-head-content h1{
+        font-size: 20px;
+    }
+    .box-1-head-image img{
+        width: 60px;
+        margin-top: 20%;
+    }
+    .box-1-body-content-icon i{
+        font-size: 30px;
+        margin-top: 40%;
+    }
+    .box-1-body-content-text a{
+        font-size: 20px;
+    }
+
+    /* box-2 */
+    .box-1-body-content-icon img{
+        width: 40px;
+    }
+    .box-1-body-content-text h2{
+        font-size: 20px;
+    }
+    .box-1-body-content-text p{
+        font-size: 15px;
+    }
+    .button a{
+        font-size: 10px;
+        padding: 10px 30px;
+    }
+    .box-pop{
+        width: 100%;
+        margin-left: -20%;
+    }
+}
+
