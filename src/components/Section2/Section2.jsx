@@ -15,7 +15,7 @@ function Section2() {
         <div className="sec-2-box-1-content">
           <p>
             You can check the licenses and download <br></br>the images for free
-            on <a style={{fontSize:"20px"}} href="#">Pexels</a>
+            on <a style={{fontSize:"20px", marginLeft:"-3%"}} href="#">Pexels</a>
           </p>
         </div>
 
@@ -27,9 +27,9 @@ function Section2() {
             </a>
           </div>
           <div className="sec-2-box-1-content">
-            <p>
+            <p className="text">
               You can check the licenses and download <br></br>the images for
-              free on <a style={{fontSize:"20px"}} href="#">Unsplash</a>
+              free on<a style={{fontSize:"20px",  marginLeft:"-2%"}} href="#">Unsplash</a>
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ function Section2() {
         </div>
         <div className="sec-2-box-1-content">
           <p>
-          Workment template uses free licensed<a href="#" style={{fontSize:"20px"}}>Google Fonts</a>
+          Workment template uses free licensed<a href="#" style={{fontSize:"20px",  marginLeft:"-2%"}}>Google Fonts</a>
           </p>
         </div>
       </div>
